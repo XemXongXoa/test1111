@@ -1,0 +1,36 @@
+.header{
+  height: 34px;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ &-left{
+   font-style: normal;
+   font-size: 24px;
+   font-weight: 700;
+   letter-spacing: 0.3px;
+   color: #252733;
+  }
+  &-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--text{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      margin-right: 12px;
+      /* or 143% */
+
+      text-align: right;
+      letter-spacing: 0.2px;
+    }
+
+    &--icon{
+      width: 44px;
+      height: 44px;
+      color: #0b132a;
+    }
+  }
+}
